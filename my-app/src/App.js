@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
-import "./App.css";
+import "./css/App.css";
 import { Route, Link, BrowserRouter, Routes } from "react-router-dom";
 // import { globalstyles } from "./constant";
-import appStyle from "./AppStyle.module.css";
-import { Homepage } from "./Homepage";
-import { Apple } from "./Apple";
+import appStyle from "./css/AppStyle.module.css";
+import { Homepage } from "./components/Homepage";
+import { Apple } from "./components/Apple";
 
-import { NotFound } from "./NotFound";
+import { NotFound } from "./components/NotFound";
 // import Logo from "./images/logo.svg";
 // import siteLogo from "../public/logo192.png";
 import {ThemeProvider} from "@emotion/react";
-import {theme} from "./style";
+import {theme} from "./components/style";
 const App = () => (
   <>
     <ThemeProvider theme={theme}>
