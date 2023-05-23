@@ -18,10 +18,10 @@ const App = () => (
     
     {/* <img src={Logo} alt="app logo"/> */}
     {/* <img src="http://localhost:3000/logo192.png" alt="app logo"/> */}
-    <img
+    {/* <img
       src={`${process.env.REACT_APP_HOSTED_URL}logo192.png`}
       alt="app logo"
-    />
+    /> */}
     <BrowserRouter>
       <div
         className={appStyle.navbarStyle}
