@@ -37,10 +37,15 @@
   }
 }
 
-/* .navbar-style{
+.navbar-style{
   display: "flex";
   padding: 5;
   column-gap: 10;
-} */
+}
 
 
+.error{
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
